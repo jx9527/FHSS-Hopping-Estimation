@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<block>
+  <name>FM_mod</name>
+  <key>my_fhss_v1_FM_mod</key>
+  <category>[my_fhss_v1]</category>
+  <import>import my_fhss_v1</import>
+  <make>my_fhss_v1.FM_mod($samp_rate, $deviation, $freq)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>samp_rate</name>
+    <key>samp_rate</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>deviation</name>
+    <key>deviation</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>freq</name>
+    <key>freq</key>
+    <type>float</type>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

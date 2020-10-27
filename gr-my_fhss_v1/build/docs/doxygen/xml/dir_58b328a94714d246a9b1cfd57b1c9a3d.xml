@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_58b328a94714d246a9b1cfd57b1c9a3d" kind="dir">
+    <compoundname>my_fhss_v1</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jx/Desktop/gr_origin/gr-my_fhss_v1/include/my_fhss_v1/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<block>
+  <name>addlist_fhss_cc</name>
+  <key>my_fhss_v1_addlist_fhss_cc</key>
+  <category>[my_fhss_v1]</category>
+  <import>import my_fhss_v1</import>
+  <make>my_fhss_v1.addlist_fhss_cc($samp_rate, $base_freq, $freq_interval, $hop_times)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>samp_rate</name>
+    <key>samp_rate</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>base_freq</name>
+    <key>base_freq</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>freq_interval</name>
+    <key>freq_interval</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>hop_times</name>
+    <key>hop_times</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

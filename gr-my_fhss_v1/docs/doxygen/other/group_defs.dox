@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio MY_FHSS_V1 C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the MY_FHSS_V1 GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

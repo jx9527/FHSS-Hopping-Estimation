@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<block>
+  <name>fhss_sink</name>
+  <key>my_fhss_v1_fhss_sink</key>
+  <category>[my_fhss_v1]</category>
+  <import>import my_fhss_v1</import>
+  <make>my_fhss_v1.fhss_sink($modtype, $vec_num, $vec_len, $hop_len)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>modtype</name>
+    <key>modtype</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>vec_num</name>
+    <key>vec_num</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>vec_len</name>
+    <key>vec_len</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>hop_len</name>
+    <key>hop_len</key>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+</block>
