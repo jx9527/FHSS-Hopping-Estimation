@@ -14,25 +14,25 @@ There is a data generation flow diagram under the `./grc `, as shown in the figu
 
 ![](README.assets/AM_FHSS.png)
 
-<center>AM_FHSS.grc</center>
+​                                                                                      AM_FHSS.grc
 
 ![](README.assets/FM_FHSS.png)
 
 
 
-<center> FM-FHSS.grc</center>
+​                                                                                          FM-FHSS.grc
 
 ![](README.assets/BPSK_FHSS.png)
 
-<center>BPSK-FHSS.grc</center>
+​                                                                                           BPSK-FHSS.grc
 
 ![](README.assets/QPSK_FHSS.png)
 
-<center>QPSK-FHSS</center>
+​                                                                                               QPSK-FHSS
 
 ![](README.assets/2FSK_FHSS.png)
 
-<center>2FSK-FHSS.grc</center>
+​                                                                                        2FSK-FHSS.grc
 
 #### Tips:
 
