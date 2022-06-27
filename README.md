@@ -1,4 +1,3 @@
-* Author:  Xing Jin
 
 ### Contains two parts:
 
